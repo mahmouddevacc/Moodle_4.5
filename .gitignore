@@ -1,0 +1,47 @@
+# Node modules (if using Node.js)
+node_modules/
+
+# Environment settings or configuration files
+.env
+*.env
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# Temporary files (IDE or text editor settings)
+.vscode/
+.idea/
+
+# Backup files
+*~
+
+# Moodle cache, session, and logs
+moodledata/
+
+# Moodle compiled files
+*.cache
+*.lock
+
+# Moodle configuration files (shouldn't be in version control)
+config.php
+
+# Files related to IDE (like IntelliJ, VS Code, etc.)
+.idea/
+.vscode/
+
+# Other temporary files that don't need to be tracked
+*.bak
+*.swp
+
+# PHPstorm & JetBrains IDE files
+.idea/
+
+# Composer vendor directory (if using Composer)
+vendor/
+
+# NPM and other dependency folders
+node_modules/
